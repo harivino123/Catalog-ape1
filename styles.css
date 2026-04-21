@@ -51,24 +51,30 @@ body {
   gap: 1rem;
 }
 
-.brand {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--text);
+.brand-lockup {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.9rem;
+  flex-shrink: 0;
 }
 
-.brand-mark {
-  width: 36px;
-  height: 36px;
-  border-radius: 999px;
-  background: var(--accent);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  margin-right: 0.75rem;
-  flex-shrink: 0;
+.brand-logo {
+  height: 71px;
+  width: auto;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  mix-blend-mode: normal;
+  transform: translateY(5px);
+}
+
+.brand-name {
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: 0.06em;
+  color: #111827;
+  text-transform: uppercase;
 }
 
 .tagline {
@@ -160,6 +166,17 @@ body {
 
   .brand {
     font-size: 14pt;
+  }
+
+  .brand-logo {
+    height: 41px;
+    width: auto;
+    mix-blend-mode: normal;
+  }
+
+  .brand-name {
+    font-size: 17pt;
+    letter-spacing: 0.04em;
   }
 
   .tagline {
@@ -376,6 +393,11 @@ body {
 @media (min-width: 768px) {
   .header-content {
     flex-wrap: nowrap;
+  }
+
+  .brand-logo {
+    height: 77px;
+    width: auto;
   }
 
   .tagline {
