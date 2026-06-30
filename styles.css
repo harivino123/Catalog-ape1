@@ -83,6 +83,21 @@ body {
   flex: 1;
 }
 
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.btn-install {
+  background: #059669;
+}
+
+.btn-install:hover {
+  background: #047857;
+}
+
 .category-heading {
   grid-column: 1 / -1;
   font-size: 1rem;
@@ -145,7 +160,9 @@ body {
 
   .btn-pdf,
   .btn-print,
-  #print-catalog {
+  .btn-install,
+  #print-catalog,
+  #install-app {
     display: none !important;
   }
 

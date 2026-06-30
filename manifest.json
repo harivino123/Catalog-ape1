@@ -1,0 +1,25 @@
+{
+  "name": "Unity Global Tape Catalogue",
+  "short_name": "UG Tape Catalogue",
+  "description": "Industrial Tapes & Packaging Solutions – Catalogue 2026",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#2563eb",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./images/ug-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/ug-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
